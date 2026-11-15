@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Firebase local caches / logs
+.firebase/
+firebase-debug.log
+*-debug.log
+
+# Editor / agent debug output
+.cursor/debug-*.log
+
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/

@@ -2,7 +2,7 @@
 
 > 本文件是实现架构的"地图"。改代码前先读这份；添加新页面 / 新服务 / 新 CSS 分层时也以这份为准。
 >
-> 版本日志看 [VERSIONS.md](./VERSIONS.md)；准备开新会话交接看 [HANDOFF.md](./HANDOFF.md)。
+> 版本日志看 [VERSIONS.md](./VERSIONS.md)；产品级界面清单看 [项目说明书.md](./项目说明书.md)。
 
 ---
 
@@ -24,7 +24,7 @@ Tourgo 是一个基于 Firebase 的双应用项目：
 ├── ARCHITECTURE.md                # 当前文件
 ├── README.md                      # 项目自述
 ├── VERSIONS.md                    # 版本日志
-├── HANDOFF.md                     # 会话交接说明
+├── 项目说明书.md                  # 产品说明（界面清单与依赖边界）
 │
 ├── firebase.json                  # Firebase 部署配置
 ├── firestore.rules                # Firestore 安全规则
@@ -347,4 +347,4 @@ firebase deploy --only firestore:rules,storage,hosting
 firebase deploy --only functions
 ```
 
-详细部署流程和缓存破坏约定见 [README.md](./README.md)；每个构建号承载的功能变化见 [VERSIONS.md](./VERSIONS.md)；跨会话交接在 [HANDOFF.md](./HANDOFF.md)。
+详细部署流程和缓存破坏约定见 [README.md](./README.md)；每个构建号承载的功能变化见 [VERSIONS.md](./VERSIONS.md)。
